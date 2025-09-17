@@ -5,7 +5,7 @@ import matplotlib.image as img
 window=tk.Tk()
 movie_code=0
 try:     
-    conn=sql.connect(host='localhost',user='root',passwd='') #establishing connection with mysql
+    conn=sql.connect(host='localhost',user='root',passwd='pword') #establishing connection with mysql
     if conn.is_connected(): 
         #checking if it is connected to mysql or not
         print('Login successful.')
